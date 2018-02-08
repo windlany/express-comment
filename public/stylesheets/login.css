@@ -1,0 +1,40 @@
+@import url('./home.css');
+
+.form {
+    width: 65%;
+    height: 70%;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 93px;
+}
+label {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 16px;
+}
+label input {
+    width: 80%;
+    height: 37px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 2px solid #ccc;
+    background: none;
+}
+.btn {
+    width: 25%;
+    height: 35px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+input:focus, .btn:focus {
+    outline: none;
+}

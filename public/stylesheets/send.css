@@ -1,0 +1,38 @@
+@import url('./home.css');
+
+.container {
+    padding-top: 20px;
+}
+.form {
+    width: 65%;
+    height: 70%;
+    margin: 0 auto;
+}
+.text {
+    width: 90%;
+    height: 80%;
+    resize: none;
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: '微软雅黑';
+    padding: 10px;
+    box-sizing: border-box;
+}
+.btn {
+    width: 90%;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fafafa;
+} 
+.text:focus, .btn:focus {
+    outline: none;
+}

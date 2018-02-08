@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>评论系统-发布评论</title>
+    <link rel="stylesheet" href="/stylesheets/send.css">
+  </head>
+  <body>
+    <header>
+      <span><a href="/">欢迎来到评论系统，</a><a href="/login">
+        <%if(!data.name) {%>
+        [未登录]
+        <%} else {%>
+          <%=data.name%>
+        <%}%></a>
+    </span>
+      <nav>
+        <span class="content"><a href="/">评论区 <i class="fa fa-comment-o"></i></a></span>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="form">
+        <textarea class="text" placeholder="请输入评论..."></textarea>
+        <button class="btn">发 布 评 论</button>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/send.js"></script>
+  </body>
+</html>
