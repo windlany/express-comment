@@ -8,13 +8,6 @@
 ![](https://github.com/windlany/express-comment/blob/master/public/images/GIF.gif)
 ## 技术栈
 > node.js+express+ejs+jquery
-
-## 项目目录
-```bash
-# 生成项目目录
-express -e express-comment
-```
-![](https://github.com/windlany/express-comment/blob/master/public/images/pro.png)
 ## 运行方式
 ``` bash
 # clone项目到本地
